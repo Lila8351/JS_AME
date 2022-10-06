@@ -14,8 +14,9 @@ produtos = [
 app.get('/produtos', (req, res) => {
     res.send(produtos)
 })
-app.get('/', (req, res) => {
-    res.send('Hello World! ..')
+app.get('/produtos/:id', (req, res) => {
+    produto = produtos.find(produto => produto.id === req.params.id)
+    res.send(produto)
 })
 
 app.post('/produtos',(req,res)=>{
