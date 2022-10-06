@@ -1,0 +1,26 @@
+{
+  "name": "js_ame",
+  "version": "1.0.0",
+  "description": "Projeto inicial desenvolvido no exercício do bootcamp Ame FastFoward. Desenvolvimento de uma API com NodeJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lila8351/JS_AME.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lila8351/JS_AME/issues"
+  },
+  "homepage": "https://github.com/Lila8351/JS_AME#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
